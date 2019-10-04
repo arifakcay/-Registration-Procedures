@@ -93,39 +93,6 @@ namespace homework
         String[] AraçTip = new String[(int)araç.sayisi];
         String[] AraçYıl = new String[(int)araç.sayisi];
 
-        private void ButtonKitapEkle_Click(object sender, EventArgs e)
-        {
-            //araç bilgilerinin tamamı dolu değilse kayıt yapmasın.
-            if (comboBoxMarkaEkle.Text != "" && comboBoxModelEkle.Text != "" && comboBoxTipEkle.Text != "" && textBoxYılEkle.Text != "")
-            {
-                ComboBoxItemNr = ComboBoxItemNr + 1;     // index numaralarını belirtmek için tanımladık.
-                comboBoxAraçSeç.Items.Add(Convert.ToString(ComboBoxItemNr));   // combobox'a numaraları eklemeye yarıyor.
-                comboBoxAraçSeç.Text = Convert.ToString(ComboBoxItemNr);     // combobox'a eklenen numarayı seçiyor.
-
-                // araç bilgilerini girmiş olduğumuz textbox'taki bilgileri araç bilgileri
-                //dizilerini atıyor. yani her girilen bilgide numara bir arttığı için labellarda
-                //gösterilen değerler kullanıcının seçimine bırakılıyor.
-                AraçMarka[ComboBoxItemNr] = comboBoxMarkaEkle.Text;
-                AraçModel[ComboBoxItemNr] = comboBoxModelEkle.Text;
-                AraçTip[ComboBoxItemNr] = comboBoxTipEkle.Text;
-                AraçYıl[ComboBoxItemNr] = textBoxYılEkle.Text;
-
-                // Dizilerde tutulan bilgileri index numaralarına göre labellar aracılığı ile kullanıcıya sunuyor.
-                lblMarka.Text = AraçMarka[comboBoxAraçSeç.SelectedIndex + 1];
-                lblModel.Text = AraçModel[comboBoxAraçSeç.SelectedIndex + 1];
-                lblTip.Text = AraçTip[comboBoxAraçSeç.SelectedIndex + 1];
-                lblYıl.Text = AraçYıl[comboBoxAraçSeç.SelectedIndex + 1];
-
-
-                comboBoxMarkaEkle.Text = "";
-                comboBoxModelEkle.Text = "";
-                comboBoxTipEkle.Text = "";
-                textBoxYılEkle.Clear();
-            }
-
-
-        }
-
         private void PageArac_Load(object sender, EventArgs e)
         {
             //combobox'a enum'daki verileri ekleme.
@@ -196,6 +163,37 @@ namespace homework
             //PageMain pagemain = new PageMain();
             pagemain.Show();
             this.Hide();
+        }
+
+        private void ButtonAracccEkle_Click(object sender, EventArgs e)
+        {
+            //araç bilgilerinin tamamı dolu değilse kayıt yapmasın.
+                if (comboBoxMarkaEkle.Text != "" && comboBoxModelEkle.Text != "" && comboBoxTipEkle.Text != "" && textBoxYılEkle.Text != "")
+            {
+                ComboBoxItemNr = ComboBoxItemNr + 1;     // index numaralarını belirtmek için tanımladık.
+                comboBoxAraçSeç.Items.Add(Convert.ToString(ComboBoxItemNr));   // combobox'a numaraları eklemeye yarıyor.
+                comboBoxAraçSeç.Text = Convert.ToString(ComboBoxItemNr);     // combobox'a eklenen numarayı seçiyor.
+
+                // araç bilgilerini girmiş olduğumuz textbox'taki bilgileri araç bilgileri
+                //dizilerini atıyor. yani her girilen bilgide numara bir arttığı için labellarda
+                //gösterilen değerler kullanıcının seçimine bırakılıyor.
+                AraçMarka[ComboBoxItemNr] = comboBoxMarkaEkle.Text;
+                AraçModel[ComboBoxItemNr] = comboBoxModelEkle.Text;
+                AraçTip[ComboBoxItemNr] = comboBoxTipEkle.Text;
+                AraçYıl[ComboBoxItemNr] = textBoxYılEkle.Text;
+
+                // Dizilerde tutulan bilgileri index numaralarına göre labellar aracılığı ile kullanıcıya sunuyor.
+                lblMarka.Text = AraçMarka[comboBoxAraçSeç.SelectedIndex + 1];
+                lblModel.Text = AraçModel[comboBoxAraçSeç.SelectedIndex + 1];
+                lblTip.Text = AraçTip[comboBoxAraçSeç.SelectedIndex + 1];
+                lblYıl.Text = AraçYıl[comboBoxAraçSeç.SelectedIndex + 1];
+
+
+                comboBoxMarkaEkle.Text = "";
+                comboBoxModelEkle.Text = "";
+                comboBoxTipEkle.Text = "";
+                textBoxYılEkle.Clear();
+            }
         }
     }
     }

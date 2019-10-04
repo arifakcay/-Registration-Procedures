@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonMainPageLibrary = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.buttonKitapEkle = new System.Windows.Forms.Button();
             this.textBoxYılEkle = new System.Windows.Forms.TextBox();
@@ -53,16 +53,16 @@
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonMainPageLibrary
             // 
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(631, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 45);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Ana Sayfa";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.buttonMainPageLibrary.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonMainPageLibrary.Location = new System.Drawing.Point(631, 29);
+            this.buttonMainPageLibrary.Name = "buttonMainPageLibrary";
+            this.buttonMainPageLibrary.Size = new System.Drawing.Size(131, 45);
+            this.buttonMainPageLibrary.TabIndex = 1;
+            this.buttonMainPageLibrary.Text = "Ana Sayfa";
+            this.buttonMainPageLibrary.UseVisualStyleBackColor = true;
+            this.buttonMainPageLibrary.Click += new System.EventHandler(this.ButtonMainPageLibrary_Click);
             // 
             // groupBox1
             // 
@@ -282,7 +282,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonMainPageLibrary);
             this.Name = "PageKütüphane";
             this.Text = "PageKütüphane";
             this.Load += new System.EventHandler(this.PageKütüphane_Load);
@@ -296,7 +296,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonMainPageLibrary;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button buttonKitapEkle;
         private System.Windows.Forms.TextBox textBoxYılEkle;

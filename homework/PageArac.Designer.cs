@@ -32,7 +32,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comboBoxMarkaEkle = new System.Windows.Forms.ComboBox();
             this.comboBoxModelEkle = new System.Windows.Forms.ComboBox();
-            this.buttonKitapEkle = new System.Windows.Forms.Button();
+            this.buttonAracccEkle = new System.Windows.Forms.Button();
             this.textBoxYılEkle = new System.Windows.Forms.TextBox();
             this.labelYilEkle = new System.Windows.Forms.Label();
             this.labelModelEkle = new System.Windows.Forms.Label();
@@ -68,7 +68,7 @@
             // 
             this.groupBox1.Controls.Add(this.comboBoxMarkaEkle);
             this.groupBox1.Controls.Add(this.comboBoxModelEkle);
-            this.groupBox1.Controls.Add(this.buttonKitapEkle);
+            this.groupBox1.Controls.Add(this.buttonAracccEkle);
             this.groupBox1.Controls.Add(this.textBoxYılEkle);
             this.groupBox1.Controls.Add(this.labelYilEkle);
             this.groupBox1.Controls.Add(this.labelModelEkle);
@@ -101,16 +101,16 @@
             this.comboBoxModelEkle.Size = new System.Drawing.Size(102, 29);
             this.comboBoxModelEkle.TabIndex = 11;
             // 
-            // buttonKitapEkle
+            // buttonAracccEkle
             // 
-            this.buttonKitapEkle.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonKitapEkle.Location = new System.Drawing.Point(93, 174);
-            this.buttonKitapEkle.Name = "buttonKitapEkle";
-            this.buttonKitapEkle.Size = new System.Drawing.Size(102, 39);
-            this.buttonKitapEkle.TabIndex = 10;
-            this.buttonKitapEkle.Text = "Ekle";
-            this.buttonKitapEkle.UseVisualStyleBackColor = true;
-            this.buttonKitapEkle.Click += new System.EventHandler(this.ButtonKitapEkle_Click);
+            this.buttonAracccEkle.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAracccEkle.Location = new System.Drawing.Point(93, 174);
+            this.buttonAracccEkle.Name = "buttonAracccEkle";
+            this.buttonAracccEkle.Size = new System.Drawing.Size(102, 39);
+            this.buttonAracccEkle.TabIndex = 10;
+            this.buttonAracccEkle.Text = "Ekle";
+            this.buttonAracccEkle.UseVisualStyleBackColor = true;
+            this.buttonAracccEkle.Click += new System.EventHandler(this.ButtonAracccEkle_Click);
             // 
             // textBoxYılEkle
             // 
@@ -301,7 +301,7 @@
 
         private System.Windows.Forms.Button buttonMainPage;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button buttonKitapEkle;
+        private System.Windows.Forms.Button buttonAracccEkle;
         private System.Windows.Forms.TextBox textBoxYılEkle;
         private System.Windows.Forms.Label labelYilEkle;
         private System.Windows.Forms.Label labelModelEkle;

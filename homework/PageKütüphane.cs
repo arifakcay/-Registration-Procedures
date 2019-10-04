@@ -17,13 +17,7 @@ namespace homework
             InitializeComponent();
         }
         public PageMain pagemain;
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            //PageMain pagemain = new PageMain();
-            pagemain.Show();
-            this.Hide();
-        }
-
+       
         int ComboBoxItemNr = 0;
 
         enum kitap   //girilecek kitap sayisini enum ile belirledik, degistirilmek istenirse buradan degistirilmesi yeterli
@@ -115,6 +109,12 @@ namespace homework
             {
                 e.Handled = true;//bunların dışındaysa hiçbirisini yazdırma
             }
+        }
+
+        private void ButtonMainPageLibrary_Click(object sender, EventArgs e)
+        {
+            pagemain.Show();
+            this.Hide();
         }
     }
 }

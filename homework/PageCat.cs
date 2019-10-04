@@ -17,12 +17,7 @@ namespace homework
             InitializeComponent();
         }
         public PageMain pagemain;
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            //PageMain pagemain = new PageMain();
-            pagemain.Show();
-            this.Hide();
-        }
+      
         ///////////////////////////////////////////////////////////////
         int ComboBoxItemNr = 0;       
 
@@ -100,6 +95,10 @@ namespace homework
             }
         }
 
- 
+        private void ButtonMainPagCat_Click(object sender, EventArgs e)
+        {
+            pagemain.Show();
+            this.Hide();
+        }
     }
 }

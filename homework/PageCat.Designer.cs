@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonMainPagCat = new System.Windows.Forms.Button();
             this.comboBoxCinsEkle = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxAdEkle = new System.Windows.Forms.TextBox();
@@ -53,16 +53,16 @@
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonMainPagCat
             // 
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(657, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Ana Sayfa";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.buttonMainPagCat.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonMainPagCat.Location = new System.Drawing.Point(657, 21);
+            this.buttonMainPagCat.Name = "buttonMainPagCat";
+            this.buttonMainPagCat.Size = new System.Drawing.Size(131, 45);
+            this.buttonMainPagCat.TabIndex = 0;
+            this.buttonMainPagCat.Text = "Ana Sayfa";
+            this.buttonMainPagCat.UseVisualStyleBackColor = true;
+            this.buttonMainPagCat.Click += new System.EventHandler(this.ButtonMainPagCat_Click);
             // 
             // comboBoxCinsEkle
             // 
@@ -287,7 +287,7 @@
             this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonMainPagCat);
             this.Controls.Add(this.groupBox2);
             this.Name = "PageCat";
             this.Text = "PageCat";
@@ -301,7 +301,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonMainPagCat;
         private System.Windows.Forms.ComboBox comboBoxCinsEkle;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxAdEkle;
