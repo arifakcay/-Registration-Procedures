@@ -1,0 +1,13 @@
+C:\Users\ARİF\Source\Repos\homework\homework\bin\Debug\homework.exe.config
+C:\Users\ARİF\Source\Repos\homework\homework\bin\Debug\homework.exe
+C:\Users\ARİF\Source\Repos\homework\homework\bin\Debug\homework.pdb
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.csprojAssemblyReference.cache
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.Properties.Resources.resources
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.csproj.GenerateResource.cache
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.csproj.CoreCompileInputs.cache
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.exe
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.pdb
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.PageMain.resources
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.PageCat.resources
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.PageKütüphane.resources
+C:\Users\ARİF\Source\Repos\homework\homework\obj\Debug\homework.PageArac.resources
